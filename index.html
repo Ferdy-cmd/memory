@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <title>Netflix Memory</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="contenedor">
+            <h2 class="logotipo">NETFLIX</h2>
+            <nav>
+                <a href="#" class="active">Home</a>
+                <a href="#">TV Shows</a>
+                <a href="#">Movies</a>
+                <a href="#">New & Popular</a>
+                <a href="#">My List</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="main-movie">
+            <video autoplay muted loop playsinline class="background-video">
+                <source src="video/backdrop.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="contenedor">
+                <h3 class="title">Special Give</h3>
+                <p class="description">Maaf cuma ini yag bisa aku kasih ke kamu btw happy anniv ke 1 Thn</p>
+                <button role="button" class="button"> <i class="fas fa-play"></i>Play</button>
+                <button role="button" class="button"> <i class="fas fa-info-circle"></i>More Info</button>
+            </div>
+        </div>
+
+        <div class="recomended-movies contenedor">
+            <div class="contenedor-title-controls">
+                <h3>Foto</h3>
+                <div class="indicators"></div>
+            </div>
+
+            <div class="main-container">
+                <button role="button" id="left-arrow" class="left-arrow"><i class="fas fa-angle-left"></i></button>
+
+                <div class="contenedor-carrousel">
+                    <div class="carrousel">
+                        <div class="movie">
+                            <a href="#"><img src="img/1.jpeg" alt="Film Inception"></a>
+                        </div>
+                        <div class="movie">
+                            <a href="#"><img src="img/2.jpeg" alt="Film Dunkirk"></a>
+                        </div>
+                        <div class="movie">
+                            <a href="#"><img src="img/3.jpeg" alt="Film Dune"></a>
+                        </div>
+                        <div class="movie">
+                            <a href="#"><img src="img/4.jpeg" alt="Film No Time to Die"></a>
+                        </div>
+                        <div class="movie">
+                            <a href="#"><img src="img/5.jpeg" alt="Film Ad Astra"></a>
+                        </div>
+                        <div class="movie">
+                            <a href="#"><img src="img/6.jpeg" alt="Film Interstellar"></a>
+                        </div>
+                        <div class="movie">
+                            <a href="#"><img src="img/7.jpeg" alt="Film Le Mans 66"></a>
+                        </div>
+                        <div class="movie">
+                            <a href="#"><img src="img/8.jpeg" alt="Film Matrix"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <button role="button" id="right-arrow" class="right-arrow"><i class="fas fa-angle-right"></i></button>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://kit.fontawesome.com/027ad8f504.js" crossorigin="anonymous"></script>
+    <script src="./js/main.js"></script>
+
+</body>
+
+</html>
